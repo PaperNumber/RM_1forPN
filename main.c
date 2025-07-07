@@ -57,7 +57,7 @@ void key_mode_handler(void){
 	HAL_Delay(10);
 	if(key_flag){
 		HAL_GPIO_TogglePin(LED1_GPIO_Port, LED1_Pin);
-		HAL_Delay(500);
+		HAL_Delay(520);
 		key_flag = 0;
 	}
 }
